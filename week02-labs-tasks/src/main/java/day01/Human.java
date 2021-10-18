@@ -1,4 +1,4 @@
-package day01.day01;
+package day01;
 
 public class Human {
     private String name;
@@ -7,6 +7,14 @@ public class Human {
     public Human(String name, int age){
         this.name = name;
         this.age = age;
+    }
+
+    public String introduction(){
+        return "Hello my name is " + name;
+    }
+
+    public void introduce(){
+        System.out.println("hello my name is " + name);
     }
 
     public String getName() {
